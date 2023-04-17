@@ -3,7 +3,6 @@
 
 ```
 composer create-project alirezasalehizadeh/larastart
-
 ```
 
 [documentation](https://laravel.com/docs) 
