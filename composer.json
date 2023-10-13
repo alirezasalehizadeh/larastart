@@ -7,11 +7,9 @@
     "require": {
         "php": "^8.1.0",
         "guzzlehttp/guzzle": "^7.2",
-        "laravel/fortify": "^1.16",
         "laravel/framework": "^10.0",
         "laravel/sanctum": "^3.2",
-        "laravel/tinker": "^2.7",
-        "laravel/ui": "^4.2"
+        "laravel/tinker": "^2.7"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -26,7 +24,8 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+        "files": ["app/Http/helpers.php"]
     },
     "autoload-dev": {
         "psr-4": {
@@ -59,9 +58,9 @@
         "sort-packages": true
     },
     "suggest": {
-        "laravel/scout": "",
-        "laravel/pint": "",
-        "tcg/voyager": ""        
+        "laravel/scout": "Search in models",
+        "laravel/pint": "Fix code style",
+        "laravel/fortify": "More authentication options"
     },
     "minimum-stability": "stable",
     "prefer-stable": true
